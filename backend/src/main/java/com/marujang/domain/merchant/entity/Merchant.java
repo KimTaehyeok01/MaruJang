@@ -1,4 +1,3 @@
-// 상인(시장 상인) 프로필 엔티티, User 와 1:1
 package com.marujang.domain.merchant.entity;
 
 import com.marujang.domain.user.entity.User;

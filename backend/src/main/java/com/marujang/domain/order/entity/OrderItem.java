@@ -1,5 +1,3 @@
-// 주문 상세 품목. Inventory 를 참조해 "어느 공급자의 재고를, 얼마에" 샀는지 특정한다.
-// price_snapshot 은 주문 시점 가격을 복사해두는 값 — Inventory.price 가 이후에 바뀌어도 과거 주문 금액은 변하지 않는다.
 package com.marujang.domain.order.entity;
 
 import com.marujang.domain.inventory.entity.Inventory;

@@ -1,4 +1,3 @@
-// OAuth2 로그인 성공 시 JWT를 발급해 프론트엔드로 리다이렉트하는 핸들러
 package com.marujang.global.security.oauth2;
 
 import com.marujang.global.security.jwt.JwtTokenProvider;

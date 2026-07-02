@@ -1,4 +1,3 @@
-// application-secret.yml 의 jwt.* 값을 바인딩하는 설정 클래스
 package com.marujang.global.security.jwt;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

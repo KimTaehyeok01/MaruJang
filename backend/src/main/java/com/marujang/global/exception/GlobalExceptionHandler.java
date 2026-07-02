@@ -1,4 +1,3 @@
-// 모든 컨트롤러에서 공통으로 발생할 수 있는 예외를 일관된 응답으로 변환
 package com.marujang.global.exception;
 
 import jakarta.persistence.EntityNotFoundException;

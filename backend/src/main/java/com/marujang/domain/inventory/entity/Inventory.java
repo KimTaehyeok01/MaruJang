@@ -1,4 +1,3 @@
-// 업체별 품목 재고/가격 엔티티 (supplier_id + item_id 유니크)
 package com.marujang.domain.inventory.entity;
 
 import com.marujang.domain.item.entity.Item;

@@ -1,4 +1,3 @@
-// JWT 액세스 토큰 발급/검증을 담당. userId(subject) + role(claim) 을 담는다.
 package com.marujang.global.security.jwt;
 
 import io.jsonwebtoken.Claims;

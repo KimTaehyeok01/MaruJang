@@ -1,4 +1,3 @@
-// 식자재 품목 카탈로그 엔티티 (업체 공용)
 package com.marujang.domain.item.entity;
 
 import jakarta.persistence.Column;

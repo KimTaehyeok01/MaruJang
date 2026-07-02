@@ -1,4 +1,3 @@
-// Spring Security 설정: OAuth2 로그인 + JWT 기반 인증(세션 미사용)
 package com.marujang.global.config;
 
 import com.marujang.global.security.jwt.JwtAuthenticationFilter;

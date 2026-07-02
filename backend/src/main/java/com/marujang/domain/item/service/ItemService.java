@@ -1,4 +1,3 @@
-// 품목 CRUD 비즈니스 로직
 package com.marujang.domain.item.service;
 
 import com.marujang.domain.item.dto.ItemRequest;

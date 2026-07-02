@@ -1,4 +1,3 @@
-// 품목 CRUD API
 package com.marujang.domain.item.controller;
 
 import com.marujang.domain.item.dto.ItemRequest;

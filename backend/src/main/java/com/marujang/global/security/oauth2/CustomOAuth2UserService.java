@@ -1,4 +1,3 @@
-// OAuth2 로그인 시 공급자(google/kakao)로부터 받은 사용자 정보를 처리하는 서비스
 package com.marujang.global.security.oauth2;
 
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

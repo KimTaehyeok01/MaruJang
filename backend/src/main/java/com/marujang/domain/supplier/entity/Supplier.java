@@ -1,4 +1,3 @@
-// 도매업체 프로필 엔티티, User 와 1:1
 package com.marujang.domain.supplier.entity;
 
 import com.marujang.domain.user.entity.User;

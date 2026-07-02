@@ -1,4 +1,3 @@
-// Authorization: Bearer {token} 헤더를 읽어 SecurityContext 에 인증 정보를 채워주는 필터
 package com.marujang.global.security.jwt;
 
 import jakarta.servlet.FilterChain;

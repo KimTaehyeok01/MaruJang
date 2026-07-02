@@ -1,4 +1,3 @@
-// 주문 엔티티. 상인이 특정 도매업체(supplier) 앞으로 생성 (주문 = 단일 공급자)
 package com.marujang.domain.order.entity;
 
 import com.marujang.domain.merchant.entity.Merchant;

@@ -1,4 +1,3 @@
-// 공통 회원 엔티티 (role 로 상인/도매업체 구분)
 package com.marujang.domain.user.entity;
 
 import jakarta.persistence.Column;

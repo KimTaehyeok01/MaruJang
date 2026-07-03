@@ -1,6 +1,9 @@
 spring:
   application:
     name: marujang
+  output:
+    ansi:
+      enabled: always
   config:
     import: optional:application-secret.yml
   datasource:

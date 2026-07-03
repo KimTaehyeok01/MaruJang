@@ -21,9 +21,9 @@ public class ItemService {
 	@Transactional
 	public ItemResponse create(ItemRequest request) {
 		Item item = Item.builder()
-				.name(request.name())
-				.category(request.category())
-				.unit(request.unit())
+				.name(request.getName())
+				.category(request.getCategory())
+				.unit(request.getUnit())
 				.build();
 		return ItemResponse.from(itemRepository.save(item));
 	}
@@ -41,7 +41,7 @@ public class ItemService {
 	@Transactional
 	public ItemResponse update(Long id, ItemRequest request) {
 		Item item = getItem(id);
-		item.update(request.name(), request.category(), request.unit());
+		item.update(request.getName(), request.getCategory(), request.getUnit());
 		return ItemResponse.from(item);
 	}
 

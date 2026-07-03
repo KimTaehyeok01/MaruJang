@@ -4,10 +4,10 @@ spring:
   config:
     import: optional:application-secret.yml
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/marujang}
+    url: ${DB_URL:jdbc:mysql://localhost:3306/marujang}
     username: ${DB_USERNAME:marujang}
     password: ${DB_PASSWORD:marujang}
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
